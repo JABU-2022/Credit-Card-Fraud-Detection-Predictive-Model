@@ -1,7 +1,7 @@
-numpy==1.26.4
+numpy
 pickle-mixin==1.0.2
-streamlit==1.2.0
+streamlit
 streamlit-option-menu==0.3.2
-scikit-learn==1.4.2
-protobuf==3.20.3
-tensorflow>=2.16.1
+scikit-learn
+protobuf
+tensorflow-cpu==2.16.1
