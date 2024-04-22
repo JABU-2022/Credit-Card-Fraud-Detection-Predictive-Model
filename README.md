@@ -32,7 +32,50 @@ The model's performance is evaluated using an accuracy score, which measures the
 ###### How to Run
 
 1. Clone the repository
-   ``
+
+   `https://github.com/buterajacques1/Credit-Card-Fraud-Detection-Predictive-Model.git`
+
+2. Navigate to the system's directory
+   
+   `cd Credit-Card-Fraud-Detection-Predictive-Model`
+
+3. Install depencies
+
+   `pip install -r requirements.txt`
+
+4. Run the app
+   * Run locally
+
+     `streamlit run src/credit_card_fraud-detection.py`
+
+     The credit_card_fraud-detection.py file is located in the src directory. Access the app through the URL displayed in the terminal 
+     after running the command.
+
+     * __Via Streamlit Sharing:__ Alternatively, you can access the deployed app on Streamlit through the following URL: [Credit card fraud prediction app](https://credit-card-fraud-detection-predictive-model-xvd3xj4p9dekcawzh.streamlit.app/)
+
+5. Interacting with the app
+
+   * Once the app is running, open the provided URL in your web browser.
+   * Use the sidebar sliders to input customer data.
+   * The app will display predictions for the data being fraud or legit
+
+
+
+
+
+
+
+
+
+
+
+   
+
+
+    
+
+
+   
 
 
 
