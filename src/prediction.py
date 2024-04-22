@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Spyder Editor
+
+This is a temporary script file.
+"""
 import numpy as np
 import pickle 
 import streamlit as st
@@ -6,13 +12,8 @@ from keras.models import load_model
 
 
 # load the saved model
-#loaded_model1 = load_model("D:/Credit_card_fraud-detection/model1.h5")
 
-import os
-
-# Set the model path to the relative location
-model_path = os.path.join(os.path.dirname(__file__), 'model1.h5')
-loaded_model1 = load_model(model_path)
+loaded_model1 = load_model("model1.h5")
 
 
 # create a function for prediction
@@ -45,7 +46,7 @@ def main():
     st.title('Credit card fraud prediction webapp')
     
     # Getting the input data from the user
-     
+    
     
     Time = st.text_input("Time")
     V1 = st.text_input("V1")
@@ -95,3 +96,4 @@ def main():
     
 if __name__ == '__main__':
     main()
+    
