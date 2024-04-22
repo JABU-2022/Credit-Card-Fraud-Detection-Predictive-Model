@@ -12,7 +12,7 @@ from keras.models import load_model
 
 
 # load the saved model
-loaded_model1 = load_model("D:/Credit_card_fraud-detection/model1.h5")
+loaded_model1 = load_model("model1.h5")
 
 
 
